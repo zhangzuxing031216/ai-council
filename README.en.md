@@ -1,6 +1,7 @@
-# AI Council · Multi-Model Discussion Rules
+# AI Council · AI 议会 (Multi-Model Discussion Rules)
 
 > **Language / 语言**: [中文](README.md) | English
+> **Name / 名称**: AI Council · AI 议会
 
 > Have 5 subagents in different roles **produce proposals independently → peer-review anonymously → converge by weight → execute → accept independently**.
 > Good for: architecture selection, comparing approaches for a complex change, multi-perspective review of writing/design, critic stress-testing before a major decision.

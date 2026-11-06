@@ -4,6 +4,7 @@
 
 - 新增 `README.en.md`：完整英文说明，不是摘要；`README.md` 顶部可切换。
 - 新增 `AI-INSTALL.en.md`：英文 AI 安装协议；`AI-INSTALL.md` 顶部可切换。
+- 项目名改为中英双语：README 标题与首屏名称行同时出现“AI 议会 / AI Council”。
 - 英文版保留全部命令、路径、席位配置和边界警告。
 
 ## 2026-11-06 · 预览图
