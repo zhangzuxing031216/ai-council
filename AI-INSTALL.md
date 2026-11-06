@@ -1,5 +1,7 @@
 # AI-INSTALL.md · 给 AI 的安装协议
 
+> **Language / 语言**: 中文 | [English](AI-INSTALL.en.md)
+
 > 目标：把本仓库的 `/council` 命令和 5+1 个 agent 安装到用户的 OpenCode 配置里，并验证能跑。
 > 适用：Windows / Linux / macOS。
 > 原则：先取证 → 备份 → 复制 → 配模型 → 验证 → 交付；不覆盖用户已有同名文件而不备份。

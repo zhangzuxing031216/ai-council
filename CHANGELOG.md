@@ -1,5 +1,11 @@
 # 更新记录
 
+## 2026-11-06 · 中英双语
+
+- 新增 `README.en.md`：完整英文说明，不是摘要；`README.md` 顶部可切换。
+- 新增 `AI-INSTALL.en.md`：英文 AI 安装协议；`AI-INSTALL.md` 顶部可切换。
+- 英文版保留全部命令、路径、席位配置和边界警告。
+
 ## 2026-11-06 · 预览图
 
 - 新增 `docs/images/council-output.svg`：最终报告结构示意。
