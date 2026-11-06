@@ -5,6 +5,7 @@
 - 新增 `docs/images/council-output.svg`：最终报告结构示意。
 - 新增 `docs/images/README.md`。
 - `README.md` 第 8 节增加报告预览。
+- `README.md` 首屏增加徽章、项目简介、适合谁、新手 3 步。
 
 ## 2026-11-06 · v0.1
 

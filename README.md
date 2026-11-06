@@ -8,6 +8,47 @@
 > - 想让 AI 帮你装？把 `AI-INSTALL.md` 整个丢给 AI。
 > - 规则源文件：`command/council.md` + `agents/*.md`。
 
+<p>
+  <img alt="OpenCode" src="https://img.shields.io/badge/OpenCode-agents-111827?style=flat-square">
+  <img alt="Multi-Agent" src="https://img.shields.io/badge/Multi--Agent-5%20seats-7c3aed?style=flat-square">
+  <img alt="Markdown" src="https://img.shields.io/badge/rules-Markdown-000000?logo=markdown&logoColor=white&style=flat-square">
+  <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square">
+  <img alt="中文文档" src="https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-0ea5e9?style=flat-square">
+</p>
+
+## 项目简介
+
+这不是一个软件包，而是一套**多模型讨论规则**：5 个角色不同的子代理先独立出方案，再匿名互评，加权收敛，最后执行并独立验收。核心只有几个 Markdown 文件，不绑定具体模型。
+
+**适合谁**
+
+- 要在几个架构方案里做选择，怕自己只看第一直觉的人。
+- 复杂改动、写作、设计评审，需要一个“反方”专门拆前提的人。
+- 已经在用 OpenCode / 支持子代理的 AI 工具，想加一套决策流程的人。
+
+**不适合谁**
+
+- 一句话能答完的问题；开会比直接做还慢。
+- 纯事实查询、必须立刻交付的小改。
+- 没有子代理能力、也不打算配置多模型的工具。
+
+**你会得到什么**
+
+| 产物 | 位置 |
+|---|---|
+| 人看的安装/使用/成本/边界 | `README.md`（本文） |
+| AI 安装协议 | `AI-INSTALL.md` |
+| 议会主流程 | `command/council.md` |
+| 5 个席位 + 独立验收 | `agents/` |
+| 原理、自定义、排错 | `docs/` |
+| 报告效果示意 | `docs/images/` |
+
+**新手先做这 3 步**
+
+1. 按第 4 节把 `command/` 和 `agents/` 复制到自己的 AI 工具目录。
+2. 按第 5 节给每个席位配置模型；先全部用同一个便宜模型也能跑。
+3. 拿一个**小议题**试 `quick` 模式，确认输出格式和存档位置，再开默认模式。
+
 ---
 
 ## 目录
