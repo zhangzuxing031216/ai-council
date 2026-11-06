@@ -1,5 +1,11 @@
 # 更新记录
 
+## 2026-11-06 · 预览图
+
+- 新增 `docs/images/council-output.svg`：最终报告结构示意。
+- 新增 `docs/images/README.md`。
+- `README.md` 第 8 节增加报告预览。
+
 ## 2026-11-06 · v0.1
 
 - 初版公开模板。

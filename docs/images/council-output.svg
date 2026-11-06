@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720" role="img" aria-label="AI council final report example">
+  <defs>
+    <style>
+      .bg { fill: #0b1020; }
+      .panel { fill: #111827; stroke: #1f2937; stroke-width: 1; }
+      .panel2 { fill: #0f172a; stroke: #334155; stroke-width: 1; }
+      .title { fill: #f8fafc; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 20px; font-weight: 700; }
+      .h2 { fill: #e2e8f0; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 13px; font-weight: 700; }
+      .t { fill: #cbd5e1; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 11px; }
+      .s { fill: #94a3b8; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 10px; }
+      .tiny { fill: #64748b; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 9px; }
+      .num { fill: #f8fafc; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 18px; font-weight: 700; }
+      .vote { fill: #34d399; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 11px; font-weight: 700; }
+      .vote-a { fill: #fbbf24; font-family: Segoe UI, Microsoft YaHei, sans-serif; font-size: 11px; font-weight: 700; }
+      .grid { stroke: #1e293b; stroke-width: 1; }
+      .accent { fill: #38bdf8; }
+      .purple { fill: #a78bfa; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1100" height="720"/>
+
+  <text x="36" y="46" class="title">AI 议会 · 最终报告</text>
+  <text x="36" y="68" class="s">5 个席位独立提案 → 匿名互评 → 加权 Borda → 执行 → 独立验收</text>
+  <rect x="900" y="26" width="164" height="28" rx="6" fill="#0f172a" stroke="#334155"/>
+  <text x="916" y="45" class="s">模式：standard · 示例</text>
+
+  <!-- question -->
+  <rect x="36" y="88" width="1028" height="72" class="panel" rx="10"/>
+  <text x="56" y="114" class="tiny">议题</text>
+  <text x="56" y="140" class="t" font-size="13" font-weight="700">个人数据库现在要不要从 SQLite 换成 PostgreSQL？</text>
+  <text x="820" y="140" class="s">约束：单机 · 1 人维护 · 数据 &lt; 5GB</text>
+
+  <!-- seat cards -->
+  <rect x="36" y="180" width="196" height="104" class="panel" rx="9"/>
+  <text x="52" y="205" class="h2">架构师</text>
+  <text x="52" y="226" class="tiny">边界 / 接口 / 维护</text>
+  <text x="52" y="256" class="vote">推荐 B</text>
+  <text x="158" y="256" class="num" font-size="16">8.7</text>
+  <text x="52" y="274" class="tiny">先不换，保留迁移接口</text>
+
+  <rect x="244" y="180" width="196" height="104" class="panel" rx="9"/>
+  <text x="260" y="205" class="h2">工程师</text>
+  <text x="260" y="226" class="tiny">实现 / 性能 / 边界</text>
+  <text x="260" y="256" class="vote">推荐 B</text>
+  <text x="366" y="256" class="num" font-size="16">8.2</text>
+  <text x="260" y="274" class="tiny">迁移成本不划算</text>
+
+  <rect x="452" y="180" width="196" height="104" class="panel" rx="9"/>
+  <text x="468" y="205" class="h2">反方</text>
+  <text x="468" y="226" class="tiny">前提 / 风险 / kill</text>
+  <text x="468" y="256" class="vote-a">推荐 A</text>
+  <text x="574" y="256" class="num" font-size="16">7.9</text>
+  <text x="468" y="274" class="tiny">现在换是过度设计</text>
+
+  <rect x="660" y="180" width="196" height="104" class="panel" rx="9"/>
+  <text x="676" y="205" class="h2">视觉</text>
+  <text x="676" y="226" class="tiny">结构 / 信息层级</text>
+  <text x="676" y="256" class="vote">推荐 B</text>
+  <text x="782" y="256" class="num" font-size="16">7.5</text>
+  <text x="676" y="274" class="tiny">文档结构不用动</text>
+
+  <rect x="868" y="180" width="196" height="104" class="panel" rx="9"/>
+  <text x="884" y="205" class="h2">学者</text>
+  <text x="884" y="226" class="tiny">语义 / 真实需求</text>
+  <text x="884" y="256" class="vote">推荐 B</text>
+  <text x="990" y="256" class="num" font-size="16">8.0</text>
+  <text x="884" y="274" class="tiny">用户要的是省心</text>
+
+  <!-- final -->
+  <rect x="36" y="304" width="660" height="236" class="panel2" rx="10"/>
+  <text x="56" y="332" class="tiny">最终结论</text>
+  <text x="56" y="362" class="h2" font-size="16">选 B：SQLite 起步，保留 PostgreSQL 接口</text>
+  <text x="56" y="388" class="t">不是“永远不用 PostgreSQL”，而是现在不付迁移成本。</text>
+
+  <text x="56" y="422" class="h2">为什么</text>
+  <text x="56" y="444" class="t">1. 单机、1 人维护、数据量小，SQLite 足够。</text>
+  <text x="56" y="464" class="t">2. 迁移会引入备份、连接池、运维三处新风险。</text>
+  <text x="56" y="484" class="t">3. 把数据库访问收进一层接口，未来换库不改业务。</text>
+
+  <text x="56" y="518" class="tiny">反方保留意见：如果 3 个月内出现多用户并发写入，重新评估。</text>
+
+  <!-- right: scores -->
+  <rect x="712" y="304" width="352" height="236" class="panel" rx="10"/>
+  <text x="732" y="332" class="h2">加权得分</text>
+  <text x="732" y="350" class="tiny">匿名互评后归一化 · 满分 10</text>
+
+  <text x="732" y="382" class="s">架构师</text>
+  <rect x="810" y="372" width="200" height="10" rx="3" fill="#1e293b"/>
+  <rect x="810" y="372" width="174" height="10" rx="3" class="accent"/>
+  <text x="1020" y="382" class="s">8.7</text>
+
+  <text x="732" y="412" class="s">工程师</text>
+  <rect x="810" y="402" width="200" height="10" rx="3" fill="#1e293b"/>
+  <rect x="810" y="402" width="164" height="10" rx="3" class="accent"/>
+  <text x="1020" y="412" class="s">8.2</text>
+
+  <text x="732" y="442" class="s">反方</text>
+  <rect x="810" y="432" width="200" height="10" rx="3" fill="#1e293b"/>
+  <rect x="810" y="432" width="158" height="10" rx="3" class="purple"/>
+  <text x="1020" y="442" class="s">7.9</text>
+
+  <text x="732" y="472" class="s">视觉</text>
+  <rect x="810" y="462" width="200" height="10" rx="3" fill="#1e293b"/>
+  <rect x="810" y="462" width="150" height="10" rx="3" class="accent"/>
+  <text x="1020" y="472" class="s">7.5</text>
+
+  <text x="732" y="502" class="s">学者</text>
+  <rect x="810" y="492" width="200" height="10" rx="3" fill="#1e293b"/>
+  <rect x="810" y="492" width="160" height="10" rx="3" class="accent"/>
+  <text x="1020" y="502" class="s">8.0</text>
+
+  <!-- next actions -->
+  <rect x="36" y="560" width="1028" height="104" class="panel" rx="10"/>
+  <text x="56" y="586" class="h2">下一步</text>
+  <text x="56" y="610" class="t">改：把数据库访问收进 <tspan fill="#67e8f9">db/repository.py</tspan>；补迁移说明。</text>
+  <text x="56" y="630" class="t">验证：<tspan fill="#67e8f9">sqlite3</tspan> 建库 + 10 条读写 + 备份恢复演练。</text>
+  <text x="56" y="650" class="t">存档：<tspan fill="#67e8f9">.council/20261106-1530/</tspan>（提案、互评、最终报告）。</text>
+
+  <text x="760" y="610" class="tiny">独立验收：exec-verifier</text>
+  <text x="760" y="628" class="tiny">不通过则退回执行，不自动放行</text>
+  <text x="760" y="646" class="tiny">模型故障：降级继续，不拖垮全场</text>
+
+  <text x="36" y="694" class="tiny" fill="#f59e0b">示例输出（合成数据）：用于展示报告结构，不对应任何真实项目或真实评审结论。</text>
+</svg>
