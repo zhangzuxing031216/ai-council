@@ -3,6 +3,7 @@
 > **Language / 语言**: [中文](README.md) | English
 > **Name / 名称**: AI Council · AI 议会
 > **Current version**: [`v0.1.0`](CHANGELOG.md) · [Versioning rules](VERSIONING.md)
+> **Worklog**: [WORKLOG.md](WORKLOG.md)
 
 > Have 5 subagents in different roles **produce proposals independently → peer-review anonymously → converge by weight → execute → accept independently**.
 > Good for: architecture selection, comparing approaches for a complex change, multi-perspective review of writing/design, critic stress-testing before a major decision.
