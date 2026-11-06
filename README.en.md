@@ -2,6 +2,7 @@
 
 > **Language / 语言**: [中文](README.md) | English
 > **Name / 名称**: AI Council · AI 议会
+> **Current version**: [`v0.1.0`](CHANGELOG.md) · [Versioning rules](VERSIONING.md)
 
 > Have 5 subagents in different roles **produce proposals independently → peer-review anonymously → converge by weight → execute → accept independently**.
 > Good for: architecture selection, comparing approaches for a complex change, multi-perspective review of writing/design, critic stress-testing before a major decision.
@@ -12,6 +13,7 @@
 > - Rule source files: `command/council.md` + `agents/*.md`.
 
 <p>
+  <img alt="Version v0.1.0" src="https://img.shields.io/badge/version-v0.1.0-2563eb?style=flat-square">
   <img alt="OpenCode" src="https://img.shields.io/badge/OpenCode-agents-111827?style=flat-square">
   <img alt="Multi-Agent" src="https://img.shields.io/badge/Multi--Agent-5%20seats-7c3aed?style=flat-square">
   <img alt="Markdown" src="https://img.shields.io/badge/rules-Markdown-000000?logo=markdown&logoColor=white&style=flat-square">
@@ -45,6 +47,7 @@ This is not a software package but a set of **multi-model discussion rules**: 5 
 | 5 seats + independent acceptance | `agents/` |
 | How it works, customization, troubleshooting | `docs/` (Chinese) |
 | Sample report output | `docs/images/` |
+| Version and changelog | `VERSION` / `CHANGELOG.md` / `VERSIONING.md` |
 
 > English scope: this README and `AI-INSTALL.en.md` are complete translations. The optional deep-dive files under `docs/` are currently in Chinese.
 

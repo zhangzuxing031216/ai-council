@@ -2,6 +2,7 @@
 
 > **Language / 语言**: 中文 | [English](README.en.md)
 > **名称 / Name**: AI 议会 · AI Council
+> **当前版本 / Current version**: [`v0.1.0`](CHANGELOG.md) · [版本规则](VERSIONING.md)
 
 > 让 5 个不同角色的子代理**独立出方案 → 匿名互评 → 加权收敛 → 执行 → 独立验收**。
 > 适合：架构选型、复杂改动的方案对比、写作/设计的多视角评审、重大决策前的反方压力测试。
@@ -12,6 +13,7 @@
 > - 规则源文件：`command/council.md` + `agents/*.md`。
 
 <p>
+  <img alt="Version v0.1.0" src="https://img.shields.io/badge/version-v0.1.0-2563eb?style=flat-square">
   <img alt="OpenCode" src="https://img.shields.io/badge/OpenCode-agents-111827?style=flat-square">
   <img alt="Multi-Agent" src="https://img.shields.io/badge/Multi--Agent-5%20seats-7c3aed?style=flat-square">
   <img alt="Markdown" src="https://img.shields.io/badge/rules-Markdown-000000?logo=markdown&logoColor=white&style=flat-square">
@@ -45,6 +47,7 @@
 | 5 个席位 + 独立验收 | `agents/` |
 | 原理、自定义、排错 | `docs/` |
 | 报告效果示意 | `docs/images/` |
+| 版本与更新记录 | `VERSION` / `CHANGELOG.md` / `VERSIONING.md` |
 
 **新手先做这 3 步**
 
